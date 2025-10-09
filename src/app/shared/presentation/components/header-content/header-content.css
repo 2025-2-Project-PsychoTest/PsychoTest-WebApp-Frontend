@@ -1,0 +1,51 @@
+.mat-spacer {
+  flex: 1 1 auto;
+}
+
+.blue-text {
+  color: skyblue;
+  font-size: 1.6rem; /* Ajusta el tamaño según lo que necesites */
+  font-weight: bold;
+}
+
+.tittle {
+  color: black;
+  font-size: 1.6rem; /* Ajusta el tamaño según lo que necesites */
+  font-weight: bold;
+}
+
+.dot-icon {
+  color: red;
+
+}
+
+
+:host {
+  display: block;
+}
+
+mat-toolbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex !important;
+  align-items: center !important;
+  gap: 32px;
+  justify-content: flex-start;
+  padding: 0 24px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  min-height: 56px !important;
+  height: 56px !important;
+}
+
+
+.mat-spacer {
+  flex: 1 1 auto;
+}
+
+app-language-switcher {
+  margin-left: 32px;
+}
