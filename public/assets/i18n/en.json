@@ -26,14 +26,14 @@
     "VIEW_ALL": "View All Recommended Careers",
     "DIALOG_TITLE": "All Recommended Careers",
     "CLOSE": "Close",
-    "Ingeniería en Sistemas": "Systems Engineering",
-    "Psicología": "Psychology",
-    "Arquitectura": "Architecture"
+    "Systems Engineering": "Systems Engineering",
+    "Psychology": "Psychology",
+    "Architecture": "Architecture"
   },
 
-  "92% de coincidencia": "92% match",
-  "87% de coincidencia": "87% match",
-  "83% de coincidencia": "83% match",
+  "92% coincidence": "92% match",
+  "87% coincidence": "87% match",
+  "83% coincidence": "83% match",
 
   "SIDEBAR": {
     "DASHBOARD": "Dashboard",
@@ -91,7 +91,31 @@
     "about": "About",
     "categories": "Categories",
     "courses": "Courses"
+  },
+  "PROFILE": {
+    "LOADING": "Loading profile...",
+    "ERROR": "An error occurred while loading the profile.",
+    "TITLE": "User Profile",
+    "EMAIL": "Email",
+    "PHONE": "Phone",
+    "AGE": "Age",
+    "USER_TYPE": "User Type",
+    "STATUS": "Status",
+    "OVERALL_PROGRESS": "Overall Progress",
+    "TESTS": "Completed Tests",
+    "RECOMMENDED_CAREERS": "Recommended Careers"
+  },
+  "PSYCHOLOGIST": {
+    "LOADING": "Loading psychologist profile...",
+    "ERROR": "Error loading psychologist data.",
+    "EMAIL": "Email",
+    "SPECIALIZATION": "Specialization",
+    "EXPERIENCE": "Experience",
+    "CERTIFICATIONS": "Certifications",
+    "AVAILABILITY": "Availability",
+    "PATIENTS": "Assigned Patients"
   }
+
 }
 
 

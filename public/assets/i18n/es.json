@@ -90,5 +90,31 @@
     "about": "Sobre nosotros",
     "categories": "Categorias",
     "courses": "Cursos"
+  },
+  "PROFILE": {
+    "LOADING": "Cargando perfil...",
+    "ERROR": "Ocurrió un error al cargar el perfil.",
+    "TITLE": "Perfil del Usuario",
+    "EMAIL": "Correo electrónico",
+    "PHONE": "Teléfono",
+    "AGE": "Edad",
+    "USER_TYPE": "Tipo de usuario",
+    "STATUS": "Estado",
+    "OVERALL_PROGRESS": "Progreso general",
+    "TESTS": "Tests realizados",
+    "RECOMMENDED_CAREERS": "Carreras recomendadas"
+  },
+  "PSYCHOLOGIST": {
+    "LOADING": "Cargando perfil del psicólogo...",
+    "ERROR": "Error al cargar los datos del psicólogo.",
+    "EMAIL": "Correo electrónico",
+    "SPECIALIZATION": "Especialización",
+    "EXPERIENCE": "Experiencia",
+    "CERTIFICATIONS": "Certificaciones",
+    "AVAILABILITY": "Disponibilidad",
+    "PATIENTS": "Pacientes asignados"
   }
+
 }
+
+
