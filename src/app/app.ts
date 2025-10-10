@@ -1,11 +1,14 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal } from '@angular/core'; // <-- 1. Añade 'signal' aquí
+import { RouterOutlet } from '@angular/router';
 
-import { Layout } from './shared/presentation/components/layout/layout';
 @Component({
   selector: 'app-root',
-  imports: [Layout],
+  standalone: true,
+  imports: [
+    RouterOutlet
+  ],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {
   protected readonly title = signal('PsychoTest-202502');
