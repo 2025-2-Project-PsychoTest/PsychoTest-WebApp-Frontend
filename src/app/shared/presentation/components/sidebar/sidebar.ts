@@ -28,6 +28,7 @@ export class SidebarComponent {
     { label: 'SIDEBAR.SESSIONS', route: 'student/sessions', icon: 'calendar_month' },
     { label: 'SIDEBAR.RESOURCES', route: 'student/resources', icon: 'import_contacts' },
     { label: 'SIDEBAR.PROFILE', route: 'student/profile', icon: 'person' },
-    { label: 'SIDEBAR.SETTINGS', route: 'student/settings', icon: 'settings' }
+    { label: 'SIDEBAR.SETTINGS', route: 'student/settings', icon: 'settings' },
+    { label: 'SIDEBAR.SUBSCRIPTION', route: 'student/subscription', icon: 'subscription' }
   ];
 }

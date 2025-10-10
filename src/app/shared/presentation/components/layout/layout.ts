@@ -38,7 +38,8 @@ export class Layout {
     { label: 'SIDEBAR.TESTS', link: 'student/tests', icon: 'quiz' },
     { label: 'SIDEBAR.SESSIONS', link: 'student/sessions', icon: 'calendar_month' },
     { label: 'SIDEBAR.DASHBOARD', link: 'student/dashboard', icon: 'dashboard' },
-    { label: 'SIDEBAR.SETTINGS', link: 'student/settings', icon: 'settings' }
+    { label: 'SIDEBAR.SETTINGS', link: 'student/settings', icon: 'settings' },
+    { label: 'SIDEBAR.SUBSCRIPTION', link: 'student/subscription', icon: 'subscription' }
   ];
 
   options_psychologist = [
@@ -48,6 +49,7 @@ export class Layout {
     { label: 'SIDEBAR.DASHBOARD', link: 'psychologist/dashboard', icon: 'dashboard' },
     { label: 'SIDEBAR.PATIENTS', link: 'psychologist/students', icon: 'group' },
     { label: 'SIDEBAR.SETTINGS', link: 'psychologist/settings', icon: 'settings'},
+    { label: 'SIDEBAR.SUBSCRIPTION', link: 'psychologist/subscription', icon: 'subscription' }
   ];
 options = this.options_student;
   constructor(private translate: TranslateService, private observer: BreakpointObserver, private router: Router){}
