@@ -858,7 +858,7 @@
       "educationLevel": "Pregrado - Ingeniería de Sistemas",
       "interests": ["Tecnología", "Programación", "Psicología Cognitiva"],
       "academicHistory": [
-        { "año": 2022, "institución": "Universidad de Lima", "estado": "Matriculado" }
+        { "year": 2022, "institution": "Universidad de Lima", "status": "Matriculado" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": false },
@@ -905,7 +905,7 @@
       "educationLevel": "Maestría - Psicología Clínica",
       "interests": ["Psicoterapia", "Bienestar Emocional", "Mindfulness"],
       "academicHistory": [
-        { "año": 2021, "institución": "Pontificia Universidad Católica del Perú", "estado": "Graduado" }
+        { "year": 2021, "institution": "Pontificia Universidad Católica del Perú", "status": "Graduado" }
       ],
       "notifications": { "email": true, "sms": true, "push": false },
       "privacySettings": { "profileVisible": false, "dataSharing": false },
@@ -947,7 +947,7 @@
       "educationLevel": "Pregrado - Derecho",
       "interests": ["Política", "Debate", "Derechos Humanos"],
       "academicHistory": [
-        { "año": 2023, "institución": "Universidad de San Martín de Porres", "estado": "Matriculado" }
+        { "year": 2023, "institution": "Universidad de San Martín de Porres", "estado": "Matriculado" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": false },
@@ -994,7 +994,7 @@
       "educationLevel": "Pregrado - Ingeniería Civil",
       "interests": ["Arquitectura", "Diseño Urbano", "Matemáticas"],
       "academicHistory": [
-        { "año": 2021, "institución": "Universidad Nacional de Ingeniería", "estado": "Matriculada" }
+        { "year": 2021, "institution": "Universidad Nacional de Ingeniería", "status": "Matriculada" }
       ],
       "notifications": { "email": true, "sms": false, "push": false },
       "privacySettings": { "profileVisible": true, "dataSharing": true },
@@ -1036,7 +1036,7 @@
       "educationLevel": "Maestría - Administración de Empresas",
       "interests": ["Gestión", "Emprendimiento", "Liderazgo"],
       "academicHistory": [
-        { "año": 2019, "institución": "Universidad ESAN", "estado": "Graduado" }
+        { "year": 2019, "institution": "Universidad ESAN", "status": "Graduado" }
       ],
       "notifications": { "email": true, "sms": true, "push": false },
       "privacySettings": { "profileVisible": false, "dataSharing": false },
@@ -1067,7 +1067,7 @@
       "educationLevel": "Pregrado - Diseño Gráfico",
       "interests": ["Arte Digital", "Ilustración", "Fotografía"],
       "academicHistory": [
-        { "año": 2022, "institución": "Toulouse Lautrec", "estado": "Matriculada" }
+        { "year": 2022, "institution": "Toulouse Lautrec", "status": "Matriculada" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": true },
@@ -1109,7 +1109,7 @@
       "educationLevel": "Pregrado - Educación Inicial",
       "interests": ["Aprendizaje Infantil", "Neuroeducación", "Motivación"],
       "academicHistory": [
-        { "año": 2021, "institución": "Universidad Nacional Mayor de San Marcos", "estado": "Matriculado" }
+        { "year": 2021, "institution": "Universidad Nacional Mayor de San Marcos", "status": "Matriculado" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": false },
@@ -1151,7 +1151,7 @@
       "educationLevel": "Pregrado - Economía",
       "interests": ["Finanzas", "Análisis de Datos", "Desarrollo Sostenible"],
       "academicHistory": [
-        { "año": 2022, "institución": "Universidad de Piura", "estado": "Matriculada" }
+        { "year": 2022, "institution": "Universidad de Piura", "status": "Matriculada" }
       ],
       "notifications": { "email": true, "sms": false, "push": false },
       "privacySettings": { "profileVisible": true, "dataSharing": false },
@@ -1188,7 +1188,7 @@
       "educationLevel": "Pregrado - Ingeniería Química",
       "interests": ["Ciencia", "Laboratorio", "Sostenibilidad"],
       "academicHistory": [
-        { "año": 2021, "institución": "Universidad Nacional de Ingeniería", "estado": "Matriculado" }
+        { "year": 2021, "institution": "Universidad Nacional de Ingeniería", "status": "Matriculado" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": false },
@@ -1230,7 +1230,7 @@
       "educationLevel": "Maestría - Administración y Marketing",
       "interests": ["Publicidad", "Comunicación", "Innovación"],
       "academicHistory": [
-        { "año": 2020, "institución": "Universidad del Pacífico", "estado": "Graduado" }
+        { "year": 2020, "institution": "Universidad del Pacífico", "status": "Graduado" }
       ],
       "notifications": { "email": true, "sms": true, "push": true },
       "privacySettings": { "profileVisible": false, "dataSharing": true },
@@ -1277,7 +1277,7 @@
       "educationLevel": "Pregrado - Psicología Organizacional",
       "interests": ["Liderazgo", "Comportamiento Laboral", "Motivación"],
       "academicHistory": [
-        { "año": 2023, "institución": "Universidad de Lima", "estado": "Matriculado" }
+        { "year": 2023, "institution": "Universidad de Lima", "status": "Matriculado" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": false },
@@ -1301,7 +1301,7 @@
       "educationLevel": "Pregrado - Psicología Clínica",
       "interests": ["Salud Mental", "Terapia Familiar", "Empatía"],
       "academicHistory": [
-        { "año": 2022, "institución": "Universidad Ricardo Palma", "estado": "Matriculada" }
+        { "year": 2022, "institution": "Universidad Ricardo Palma", "status": "Matriculada" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": false, "dataSharing": false },
@@ -1325,7 +1325,7 @@
       "educationLevel": "Maestría - Psicología Educativa",
       "interests": ["Docencia", "Motivación", "Educación Infantil"],
       "academicHistory": [
-        { "año": 2018, "institución": "Universidad César Vallejo", "estado": "Graduado" }
+        { "year": 2018, "institution": "Universidad César Vallejo", "status": "Graduado" }
       ],
       "notifications": { "email": false, "sms": true, "push": false },
       "privacySettings": { "profileVisible": true, "dataSharing": false },
@@ -1349,7 +1349,7 @@
       "educationLevel": "Pregrado - Comunicación Social",
       "interests": ["Periodismo", "Relaciones Públicas", "Fotografía"],
       "academicHistory": [
-        { "año": 2021, "institución": "Universidad San Ignacio de Loyola", "estado": "Matriculada" }
+        { "year": 2021, "institution": "Universidad San Ignacio de Loyola", "status": "Matriculada" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": true },
@@ -1373,7 +1373,7 @@
       "educationLevel": "Pregrado - Ingeniería Ambiental",
       "interests": ["Ecología", "Sostenibilidad", "Energías Renovables"],
       "academicHistory": [
-        { "año": 2022, "institución": "Universidad Nacional Agraria La Molina", "estado": "Matriculado" }
+        { "year": 2022, "institution": "Universidad Nacional Agraria La Molina", "status": "Matriculado" }
       ],
       "notifications": { "email": false, "sms": true, "push": false },
       "privacySettings": { "profileVisible": false, "dataSharing": false },
@@ -1397,7 +1397,7 @@
       "educationLevel": "Pregrado - Arquitectura",
       "interests": ["Diseño", "Arte", "Estructuras"],
       "academicHistory": [
-        { "año": 2023, "institución": "Universidad Peruana de Ciencias Aplicadas", "estado": "Matriculada" }
+        { "year": 2023, "institution": "Universidad Peruana de Ciencias Aplicadas", "status": "Matriculada" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": true },
@@ -1421,7 +1421,7 @@
       "educationLevel": "Pregrado - Economía",
       "interests": ["Finanzas", "Macroeconomía", "Inversión"],
       "academicHistory": [
-        { "año": 2020, "institución": "Universidad de Piura", "estado": "Egresado" }
+        { "year": 2020, "institution": "Universidad de Piura", "status": "Egresado" }
       ],
       "notifications": { "email": true, "sms": true, "push": false },
       "privacySettings": { "profileVisible": false, "dataSharing": false },
@@ -1445,7 +1445,7 @@
       "educationLevel": "Pregrado - Psicología Educativa",
       "interests": ["Pedagogía", "Aprendizaje", "Desarrollo Infantil"],
       "academicHistory": [
-        { "año": 2022, "institución": "Universidad San Martín de Porres", "estado": "Matriculada" }
+        { "year": 2022, "institution": "Universidad San Martín de Porres", "status": "Matriculada" }
       ],
       "notifications": { "email": false, "sms": true, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": true },
@@ -1469,7 +1469,7 @@
       "educationLevel": "Pregrado - Ingeniería de Software",
       "interests": ["Tecnología", "Ciencia de Datos", "Automatización"],
       "academicHistory": [
-        { "año": 2023, "institución": "Universidad Peruana de Ciencias Aplicadas", "estado": "Matriculado" }
+        { "year": 2023, "institution": "Universidad Peruana de Ciencias Aplicadas", "status": "Matriculado" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": false },
@@ -1493,7 +1493,7 @@
       "educationLevel": "Pregrado - Psicología Forense",
       "interests": ["Criminología", "Perfilación", "Justicia"],
       "academicHistory": [
-        { "año": 2022, "institución": "Universidad César Vallejo", "estado": "Matriculada" }
+        { "year": 2022, "institution": "Universidad César Vallejo", "status": "Matriculada" }
       ],
       "notifications": { "email": true, "sms": true, "push": false },
       "privacySettings": { "profileVisible": false, "dataSharing": false },
@@ -1517,7 +1517,7 @@
       "educationLevel": "Pregrado - Psicología Social",
       "interests": ["Sociología", "Voluntariado", "Cambio Social"],
       "academicHistory": [
-        { "año": 2023, "institución": "Universidad Nacional Mayor de San Marcos", "estado": "Matriculado" }
+        { "year": 2023, "institution": "Universidad Nacional Mayor de San Marcos", "status": "Matriculado" }
       ],
       "notifications": { "email": false, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": true },
@@ -1541,7 +1541,7 @@
       "educationLevel": "Pregrado - Psicología Clínica",
       "interests": ["Terapia Cognitiva", "Ansiedad", "Mindfulness"],
       "academicHistory": [
-        { "año": 2022, "institución": "Universidad Peruana Cayetano Heredia", "estado": "Matriculada" }
+        { "year": 2022, "institution": "Universidad Peruana Cayetano Heredia", "status": "Matriculada" }
       ],
       "notifications": { "email": true, "sms": false, "push": true },
       "privacySettings": { "profileVisible": true, "dataSharing": false },
@@ -1565,7 +1565,7 @@
       "educationLevel": "Pregrado - Psicología del Deporte",
       "interests": ["Motivación", "Rendimiento Deportivo", "Resiliencia"],
       "academicHistory": [
-        { "año": 2023, "institución": "Universidad Católica San Pablo", "estado": "Matriculado" }
+        { "year": 2023, "institution": "Universidad Católica San Pablo", "status": "Matriculado" }
       ],
       "notifications": { "email": true, "sms": false, "push": false },
       "privacySettings": { "profileVisible": true, "dataSharing": true },
@@ -1589,7 +1589,7 @@
       "educationLevel": "Maestría - Neuropsicología",
       "interests": ["Cerebro Humano", "Trastornos Cognitivos", "Aprendizaje"],
       "academicHistory": [
-        { "año": 2020, "institución": "Universidad Peruana Cayetano Heredia", "estado": "Graduado" }
+        { "year": 2020, "institution": "Universidad Peruana Cayetano Heredia", "status": "Graduado" }
       ],
       "notifications": { "email": true, "sms": true, "push": true },
       "privacySettings": { "profileVisible": false, "dataSharing": false },

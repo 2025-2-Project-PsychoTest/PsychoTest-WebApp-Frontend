@@ -102,7 +102,16 @@
     "STATUS": "Estado",
     "OVERALL_PROGRESS": "Progreso general",
     "TESTS": "Tests realizados",
-    "RECOMMENDED_CAREERS": "Carreras recomendadas"
+    "RECOMMENDED_CAREERS": "Carreras recomendadas",
+    "EDUCATION_LEVEL": "Nivel educativo",
+    "INTERESTS": "Intereses",
+    "ACADEMIC_HISTORY": "Historial académico",
+    "BIO": "Biografía",
+    "NOTIFICATIONS": "Notificaciones",
+    "PRIVACY": "Privacidad",
+    "PREFERENCES": "Preferencias",
+    "LANGUAGE": "Idioma",
+    "TIMEZONE": "Zona horaria"
   },
   "PSYCHOLOGIST": {
     "LOADING": "Cargando perfil del psicólogo...",
