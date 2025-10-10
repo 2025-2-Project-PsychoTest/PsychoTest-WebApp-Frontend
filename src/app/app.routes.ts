@@ -6,20 +6,18 @@ const pageNotFound = () => import('./shared/presentation/views/page-not-found/pa
 const baseTitle = 'PsychoTest';
 
 export const routes: Routes = [
-  // Ruta Padre para el Layout principal
   {
     path: '',
-    component: Layout, // Carga el Layout que contiene la barra lateral y el <router-outlet>
+    component: Layout,
     children: [
       { path: 'home', component: Home, title: `${baseTitle} - Home` },
 
-      // --- RUTAS ANIDADAS PARA EL ROL DE ESTUDIANTE ---
+
       {
         path: 'student',
         children: [
-          // { path: 'profile', component: StudentProfileComponent }, // Ejemplo de otra ruta
           {
-            path: 'subscription', // Coincide con student/subscription
+            path: 'subscription',
             title: `${baseTitle} - Suscripción`,
             loadChildren: () =>
               import('./Subscription/subscription.routes').then(
@@ -29,13 +27,12 @@ export const routes: Routes = [
         ]
       },
 
-      // --- RUTAS ANIDADAS PARA EL ROL DE PSICÓLOGO ---
+
       {
         path: 'psychologist',
         children: [
-          // { path: 'profile', component: PsychologistProfileComponent }, // Ejemplo
           {
-            path: 'subscription', // Coincide con psychologist/subscription
+            path: 'subscription',
             title: `${baseTitle} - Suscripción`,
             loadChildren: () =>
               import('./Subscription/subscription.routes').then(
@@ -45,12 +42,11 @@ export const routes: Routes = [
         ]
       },
 
-      // Redirección inicial
+      //
       { path: '', redirectTo: '/home', pathMatch: 'full' },
     ]
   },
 
-  // La página no encontrada va fuera del layout principal
   { path: '**', loadComponent: pageNotFound, title: `${baseTitle} - Page Not Found` },
 ];
 

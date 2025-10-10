@@ -2,11 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Observable } from 'rxjs';
 
-// Importaciones de la aplicación (Rutas corregidas)
 import { SubscriptionStore } from '../../../application/subscription-store';
 import { Subscription } from '../../../domain/model/subscription.entity';
 
-// Importaciones de los componentes hijos
 import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
 import { SubscriptionListComponent } from './subscription-list/subscription-list.component';
 
@@ -23,12 +21,10 @@ import { SubscriptionListComponent } from './subscription-list/subscription-list
 })
 export class SubscriptionsManagementComponent implements OnInit {
 
-  // Observables para conectar el estado del store a la plantilla
   subscriptions$: Observable<Subscription[]>;
   loading$: Observable<boolean>;
   error$: Observable<string | null>;
 
-  // Propiedad para mantener la suscripción que se está editando
   selectedSubscription: Subscription | null = null;
 
   /**
@@ -41,9 +37,6 @@ export class SubscriptionsManagementComponent implements OnInit {
     this.error$ = this.store.error$;
   }
 
-  /**
-   * Carga los datos iniciales cuando el componente se inicia.
-   */
   ngOnInit(): void {
     this.store.loadSubscriptions();
   }
@@ -55,10 +48,10 @@ export class SubscriptionsManagementComponent implements OnInit {
    */
   handleSave(subscription: Subscription): void {
     if (this.selectedSubscription && this.selectedSubscription.id === subscription.id) {
-      // Actualizar la suscripción existente
+
       this.store.updateSubscription(subscription);
     } else {
-      // Crear una nueva suscripción
+
       this.store.createSubscription(subscription);
     }
     this.clearSelection();
@@ -86,9 +79,6 @@ export class SubscriptionsManagementComponent implements OnInit {
     }
   }
 
-  /**
-   * Limpia la suscripción seleccionada, reiniciando el formulario.
-   */
   clearSelection(): void {
     this.selectedSubscription = null;
   }
