@@ -90,5 +90,42 @@
     "about": "Sobre nosotros",
     "categories": "Categorias",
     "courses": "Cursos"
+  },
+  "som": {
+    "title": "Notificaciones",
+    "create": "Crear",
+    "empty": "No hay notificaciones",
+    "filters": {
+      "status": "Estado (todos)",
+      "category": "Categoría (todas)",
+      "search": "Buscar..."
+    },
+    "status": {
+      "UNREAD": "No leída",
+      "READ": "Leída",
+      "EXPIRED": "Vencida",
+      "DISMISSED": "Descartada"
+    },
+    "category": {
+      "EXAM": "Examen",
+      "REMINDER": "Recordatorio",
+      "SYSTEM": "Sistema"
+    },
+    "priority": {
+      "LOW": "Baja",
+      "MEDIUM": "Media",
+      "HIGH": "Alta"
+    },
+    "actions": { "read": "Marcar leída", "delete": "Eliminar", "save": "Guardar" },
+    "new": {
+      "title": "Crear notificación",
+      "fields": {
+        "title": "Título",
+        "body": "Mensaje",
+        "category": "Categoría",
+        "priority": "Prioridad",
+        "scheduledAt": "Programar para (opcional)"
+      }
+    }
   }
 }

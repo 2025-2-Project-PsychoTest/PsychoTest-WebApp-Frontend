@@ -2,6 +2,7 @@
   "name": "psycho-test-202502",
   "version": "0.0.0",
   "scripts": {
+    "mock": "json-server db.json --routes ./server/routes.json --port 3000 --delay 300",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -41,6 +42,7 @@
     "@angular/compiler-cli": "^20.3.0",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.9.0",
+    "json-server": "^0.17.4",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",

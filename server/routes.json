@@ -1,3 +1,5 @@
 {
-  "/api/v1/*": "/$1"
+  "/api/v1/*": "/$1",
+  "/som/notifications*": "/som_notifications$1",
+  "/som/categories*": "/som_categories$1"
 }

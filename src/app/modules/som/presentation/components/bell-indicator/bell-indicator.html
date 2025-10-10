@@ -1,0 +1,6 @@
+<button (click)="goToCenter()" aria-label="Notificaciones" class="bell">
+  <span class="material-icons">notifications</span>
+  @if (unread() > 0) {
+    <span class="badge">{{ unread() }}</span>
+  }
+</button>

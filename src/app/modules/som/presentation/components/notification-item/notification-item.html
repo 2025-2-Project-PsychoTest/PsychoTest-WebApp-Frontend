@@ -1,0 +1,15 @@
+<article class="card" [class.unread]="item().status === 'UNREAD'">
+  <header><strong>{{ item().title }}</strong></header>
+  <p>{{ item().body }}</p>
+  <small>
+    {{ ('som.category.' + item().category) | translate }}
+    · {{ ('som.priority.' + item().priority) | translate }}
+    · {{ item().createdAt | date:'short' }}
+  </small>
+  <div class="actions">
+    @if (item().status === 'UNREAD') {
+      <button (click)="markRead.emit(item().id)">{{ 'som.actions.read' | translate }}</button>
+    }
+    <button (click)="remove.emit(item().id)">{{ 'som.actions.delete' | translate }}</button>
+  </div>
+</article>

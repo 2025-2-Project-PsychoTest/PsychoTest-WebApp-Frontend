@@ -1,0 +1,4 @@
+.form { display: grid; gap: 12px; max-width: 640px; }
+label { display: grid; gap: 6px; }
+input, textarea, select, button { padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; }
+.actions { margin-top: 8px; }

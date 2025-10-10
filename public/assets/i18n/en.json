@@ -91,6 +91,26 @@
     "about": "About",
     "categories": "Categories",
     "courses": "Courses"
+  },
+  "som": {
+    "title": "Notifications",
+    "create": "Create",
+    "empty": "No notifications",
+    "filters": { "status": "Status (all)", "category": "Category (all)", "search": "Search..." },
+    "status": { "UNREAD": "Unread", "READ": "Read", "EXPIRED": "Expired", "DISMISSED": "Dismissed" },
+    "category": { "EXAM": "Exam", "REMINDER": "Reminder", "SYSTEM": "System" },
+    "priority": { "LOW": "Low", "MEDIUM": "Medium", "HIGH": "High" },
+    "actions": { "read": "Mark as read", "delete": "Delete", "save": "Save" },
+    "new": {
+      "title": "Create notification",
+      "fields": {
+        "title": "Title",
+        "body": "Message",
+        "category": "Category",
+        "priority": "Priority",
+        "scheduledAt": "Schedule for (optional)"
+      }
+    }
   }
 }
 

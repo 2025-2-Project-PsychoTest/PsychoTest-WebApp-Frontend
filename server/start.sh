@@ -1,1 +1,3 @@
-json-server --watch db.json --routes routes.json
+npx json-server server/db.json --port 3000 --host 127.0.0.1
+
+

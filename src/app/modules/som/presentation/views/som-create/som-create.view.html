@@ -1,0 +1,30 @@
+<h1>{{ 'som.new.title' | translate }}</h1>
+
+<form [formGroup]="form" (ngSubmit)="save()" class="form">
+  <label>{{ 'som.new.fields.title' | translate }} <input formControlName="title"></label>
+  <label>{{ 'som.new.fields.body' | translate }} <textarea formControlName="body"></textarea></label>
+
+  <label>{{ 'som.new.fields.category' | translate }}
+    <select formControlName="category">
+      <option value="EXAM">{{ 'som.category.EXAM' | translate }}</option>
+      <option value="REMINDER">{{ 'som.category.REMINDER' | translate }}</option>
+      <option value="SYSTEM">{{ 'som.category.SYSTEM' | translate }}</option>
+    </select>
+  </label>
+
+  <label>{{ 'som.new.fields.priority' | translate }}
+    <select formControlName="priority">
+      <option value="LOW">{{ 'som.priority.LOW' | translate }}</option>
+      <option value="MEDIUM">{{ 'som.priority.MEDIUM' | translate }}</option>
+      <option value="HIGH">{{ 'som.priority.HIGH' | translate }}</option>
+    </select>
+  </label>
+
+  <label>{{ 'som.new.fields.scheduledAt' | translate }}
+    <input type="datetime-local" formControlName="scheduledAt">
+  </label>
+
+  <div class="actions">
+    <button type="submit" [disabled]="loading()">{{ 'som.actions.save' | translate }}</button>
+  </div>
+</form>

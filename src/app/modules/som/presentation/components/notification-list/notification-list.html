@@ -1,0 +1,36 @@
+<section class="toolbar">
+  <select [value]="status()" (change)="onStatusChange($event)">
+    <option value="">{{ 'som.filters.status' | translate }}</option>
+    <option value="UNREAD">{{ 'som.status.UNREAD' | translate }}</option>
+    <option value="READ">{{ 'som.status.READ' | translate }}</option>
+    <option value="EXPIRED">{{ 'som.status.EXPIRED' | translate }}</option>
+    <option value="DISMISSED">{{ 'som.status.DISMISSED' | translate }}</option>
+  </select>
+
+  <select [value]="category()" (change)="onCategoryChange($event)">
+    <option value="">{{ 'som.filters.category' | translate }}</option>
+    <option value="EXAM">{{ 'som.category.EXAM' | translate }}</option>
+    <option value="REMINDER">{{ 'som.category.REMINDER' | translate }}</option>
+    <option value="SYSTEM">{{ 'som.category.SYSTEM' | translate }}</option>
+  </select>
+
+  <input [placeholder]="'som.filters.search' | translate"
+         [value]="q()" (input)="onQuery($event)"/>
+</section>
+
+<section class="list">
+  @if (loading()) { <p>...</p> }
+  @else {
+    @if (items().length === 0) {
+      <p>{{ 'som.empty' | translate }}</p>
+    } @else {
+      @for (n of items(); track n.id) {
+        <app-notification-item
+          [item]="n"
+          (markRead)="onMarkRead($event)"
+          (remove)="onDelete($event)">
+        </app-notification-item>
+      }
+    }
+  }
+</section>

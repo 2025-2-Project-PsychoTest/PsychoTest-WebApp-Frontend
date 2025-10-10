@@ -1,0 +1,7 @@
+.bell { position: relative; border: none; background: transparent; cursor: pointer; }
+.badge {
+  position: absolute; top: -6px; right: -6px;
+  padding: 0 6px; border-radius: 10px; font-size: 12px;
+  line-height: 18px; height: 18px; min-width: 18px; text-align: center;
+  background: #e53935; color: #fff;
+}

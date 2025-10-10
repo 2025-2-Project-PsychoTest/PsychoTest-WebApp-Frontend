@@ -840,5 +840,32 @@
       "points": 15,
       "id": 4
     }
+  ],
+  "som_notifications": [
+    {
+      "id": 1,
+      "userId": "U-001",
+      "category": "EXAM",
+      "priority": "HIGH",
+      "title": "Examen pendiente",
+      "body": "Tu examen vence en 48 horas.",
+      "status": "UNREAD",
+      "createdAt": "2025-10-10T03:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": "U-001",
+      "category": "SYSTEM",
+      "priority": "LOW",
+      "title": "Actualización completada",
+      "body": "Se aplicaron mejoras de estabilidad.",
+      "status": "READ",
+      "createdAt": "2025-10-08T12:00:00Z"
+    }
+  ],
+  "som_categories": [
+    "EXAM",
+    "REMINDER",
+    "SYSTEM"
   ]
 }
