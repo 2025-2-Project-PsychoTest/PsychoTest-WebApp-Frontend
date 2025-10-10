@@ -1,0 +1,27 @@
+
+.subscription-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+}
+
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.form-field {
+  flex: 1 1 0%;
+}
+
+.form-actions {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem; /* Un poco de espacio extra arriba */
+}

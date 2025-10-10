@@ -1,0 +1,80 @@
+<div class="list-container mat-elevation-z8">
+  <!--
+    Tabla de Angular Material.
+    [dataSource] es la fuente de datos, que en este caso es el array de suscripciones.
+  -->
+  <table mat-table [dataSource]="subscriptions">
+
+    <!-- Definición de la Columna 'ID' -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> ID </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+
+    <!-- Definición de la Columna 'User ID' -->
+    <ng-container matColumnDef="userId">
+      <th mat-header-cell *matHeaderCellDef> User ID </th>
+      <td mat-cell *matCellDef="let element"> {{element.userId}} </td>
+    </ng-container>
+
+    <!-- Definición de la Columna 'Plan ID' -->
+    <ng-container matColumnDef="planId">
+      <th mat-header-cell *matHeaderCellDef> Plan ID </th>
+      <td mat-cell *matCellDef="let element"> {{element.planId}} </td>
+    </ng-container>
+
+    <!-- Definición de la Columna 'Start Date' -->
+    <ng-container matColumnDef="startDate">
+      <th mat-header-cell *matHeaderCellDef> Fecha de Inicio </th>
+      <!-- Usamos el pipe 'date' para formatear la fecha -->
+      <td mat-cell *matCellDef="let element"> {{element.startDate | date: 'dd/MM/yyyy'}} </td>
+    </ng-container>
+
+    <!-- Definición de la Columna 'End Date' -->
+    <ng-container matColumnDef="endDate">
+      <th mat-header-cell *matHeaderCellDef> Fecha de Fin </th>
+      <td mat-cell *matCellDef="let element"> {{element.endDate ? (element.endDate | date: 'dd/MM/yyyy') : 'N/A'}} </td>
+    </ng-container>
+
+    <!-- Definición de la Columna 'Status' (isActive) -->
+    <ng-container matColumnDef="isActive">
+      <th mat-header-cell *matHeaderCellDef> Estado </th>
+      <td mat-cell *matCellDef="let element">
+        <!-- Usamos nuestro componente de insignia personalizado -->
+        <app-subscription-status-badge [isActive]="element.isActive"></app-subscription-status-badge>
+      </td>
+    </ng-container>
+
+    <!-- Definición de la Columna 'Actions' -->
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef> Acciones </th>
+      <td mat-cell *matCellDef="let element">
+        <!-- Botón para editar, llama a onEdit() con el objeto de la suscripción -->
+        <button mat-icon-button color="primary" (click)="onEdit(element)" aria-label="Editar suscripción">
+          <mat-icon>edit</mat-icon>
+        </button>
+        <!-- Botón para eliminar, llama a onDelete() con el ID -->
+        <button mat-icon-button color="warn" (click)="onDelete(element.id)" aria-label="Eliminar suscripción">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </td>
+    </ng-container>
+
+    <!-- Definición de las filas de la cabecera y del cuerpo -->
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    <!-- Mensaje a mostrar cuando no hay datos -->
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell" [attr.colspan]="displayedColumns.length">
+        No hay suscripciones para mostrar.
+      </td>
+    </tr>
+  </table>
+
+  <!-- Paginador de Angular Material -->
+  <mat-paginator [pageSizeOptions]="[5, 10, 20]"
+                 showFirstLastButtons
+                 aria-label="Seleccionar página de suscripciones">
+  </mat-paginator>
+</div>

@@ -1,0 +1,31 @@
+
+.list-container {
+  position: relative;
+  overflow: auto;
+}
+
+
+table {
+  width: 100%;
+}
+
+
+.mat-row .mat-cell {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.mat-row:last-of-type .mat-cell {
+  border-bottom: none;
+}
+
+.mat-cell.mat-no-data-row {
+  text-align: center;
+  padding: 1.5rem;
+  color: #64748b;
+}
+
+
+mat-paginator {
+  margin-top: 1rem;
+}

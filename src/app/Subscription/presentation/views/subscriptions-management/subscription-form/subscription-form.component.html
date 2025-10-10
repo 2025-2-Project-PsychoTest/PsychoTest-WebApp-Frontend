@@ -1,0 +1,51 @@
+
+<form class="subscription-form-container" [formGroup]="form" (ngSubmit)="submit()" novalidate>
+
+
+  <div class="form-row">
+    <mat-form-field appearance="outline" class="form-field">
+      <mat-label>User ID</mat-label>
+      <input matInput formControlName="userId" type="number" required placeholder="Ej: 123">
+      @if (form.get('userId')!.touched && form.get('userId')!.hasError('required')) {
+      <mat-error>El ID de usuario es requerido.</mat-error>
+      }
+    </mat-form-field>
+
+    <app-plan-selector
+      formControlName="planId"
+      [plans]="plans"
+      class="form-field">
+    </app-plan-selector>
+
+  </div>
+
+  <div class="form-row">
+    <mat-form-field appearance="outline" class="form-field">
+      <mat-label>Fecha de Inicio</mat-label>
+      <input matInput [matDatepicker]="startDatePicker" formControlName="startDate" required>
+      <mat-datepicker-toggle matSuffix [for]="startDatePicker"></mat-datepicker-toggle>
+      <mat-datepicker #startDatePicker></mat-datepicker>
+      @if (form.get('startDate')!.touched && form.get('startDate')!.hasError('required')) {
+      <mat-error>La fecha de inicio es requerida.</mat-error>
+      }
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="form-field">
+      <mat-label>Fecha de Fin (Opcional)</mat-label>
+      <input matInput [matDatepicker]="endDatePicker" formControlName="endDate">
+      <mat-datepicker-toggle matSuffix [for]="endDatePicker"></mat-datepicker-toggle>
+      <mat-datepicker #endDatePicker></mat-datepicker>
+    </mat-form-field>
+  </div>
+
+  <div class="form-row form-actions">
+    <mat-slide-toggle formControlName="isActive" color="primary">
+      Suscripción Activa
+    </mat-slide-toggle>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="form.invalid">
+      {{ isEditMode ? 'Actualizar' : 'Agregar' }} Suscripción
+    </button>
+  </div>
+
+</form>
