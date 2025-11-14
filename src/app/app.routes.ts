@@ -13,11 +13,11 @@ const baseTitle = 'PsychoTest';
 export const routes: Routes = [
   { path: 'home', component: Home, title: `${baseTitle} - Home` },
 
-  {
+  /*{
     path: 'profile',
     component: ProfileViewComponent,
     title: `${baseTitle} - Student Profile`,
-  },
+  },*/
 
   {
     path: 'psychologist-profile',
