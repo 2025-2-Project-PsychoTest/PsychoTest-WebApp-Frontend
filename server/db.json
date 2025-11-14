@@ -636,6 +636,8 @@
       "recommendedCareers": []
     }
   ],
+
+
   "sections": [
     {
       "id": 1,
@@ -839,6 +841,1744 @@
       "explanation": "ewq",
       "points": 15,
       "id": 4
+    }
+  ],
+  "students_es": [
+    {
+      "id": 1,
+      "firstname": "Carlos",
+      "lastname": "Mendoza",
+      "fullName": "Carlos Mendoza",
+      "email": "carlos.mendoza@email.com",
+      "phone": "+51 987654321",
+      "age": 28,
+      "status": "activo",
+      "registrationDate": "2023-03-15",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Ingeniería de Sistemas",
+      "interests": ["Tecnología", "Programación", "Psicología Cognitiva"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Universidad de Lima", "status": "Matriculado" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/11.jpg",
+      "bio": "Apasionado por la tecnología y el análisis de datos.",
+      "progress": {
+        "overallPercentage": 75,
+        "tests": [
+          { "name": "Test de Intereses", "status": "Completado", "completionDate": "5 de mayo" },
+          { "name": "Test de Aptitudes", "status": "Completado", "completionDate": "7 de mayo" },
+          { "name": "Test de Personalidad", "status": "Pendiente", "estimatedTime": "25 minutos" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Ingeniería en Sistemas",
+          "description": "Tus aptitudes analíticas y lógicas, combinadas con tu interés en tecnología, hacen de esta carrera una excelente opción.",
+          "compatibilityPercentage": 92
+        },
+        {
+          "name": "Psicología",
+          "description": "Tu empatía y habilidades de comunicación te hacen un buen candidato para esta carrera orientada a ayudar a otros.",
+          "compatibilityPercentage": 87
+        },
+        {
+          "name": "Arquitectura",
+          "description": "Tu creatividad y habilidades espaciales sugieren que podrías destacar en el diseño arquitectónico.",
+          "compatibilityPercentage": 83
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstname": "Laura",
+      "lastname": "Sánchez",
+      "fullName": "Laura Sánchez",
+      "email": "laura.sanchez@email.com",
+      "phone": "+51 987654322",
+      "age": 32,
+      "status": "activo",
+      "registrationDate": "2023-02-20",
+      "userType": "Estudiante",
+      "educationLevel": "Maestría - Psicología Clínica",
+      "interests": ["Psicoterapia", "Bienestar Emocional", "Mindfulness"],
+      "academicHistory": [
+        { "year": 2021, "institution": "Pontificia Universidad Católica del Perú", "status": "Graduado" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/12.jpg",
+      "bio": "Psicóloga en formación apasionada por la salud mental y la empatía.",
+      "progress": {
+        "overallPercentage": 33,
+        "tests": [
+          { "name": "Test de Intereses", "status": "Completado", "completionDate": "8 de mayo" },
+          { "name": "Test de Aptitudes", "status": "Pendiente", "estimatedTime": "20 minutos" },
+          { "name": "Test de Personalidad", "status": "Pendiente", "estimatedTime": "25 minutos" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Medicina",
+          "description": "Tu interés en ayudar a otros y tu capacidad de análisis te hacen ideal para esta carrera.",
+          "compatibilityPercentage": 90
+        },
+        {
+          "name": "Biología",
+          "description": "Tu curiosidad por las ciencias naturales sugiere que podrías disfrutar esta carrera.",
+          "compatibilityPercentage": 85
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstname": "Miguel",
+      "lastname": "Rodríguez",
+      "fullName": "Miguel Rodríguez",
+      "email": "miguel.rodriguez@email.com",
+      "phone": "+51 987654323",
+      "age": 25,
+      "status": "activo",
+      "registrationDate": "2023-04-10",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Derecho",
+      "interests": ["Política", "Debate", "Derechos Humanos"],
+      "academicHistory": [
+        { "year": 2023, "institution": "Universidad de San Martín de Porres", "estado": "Matriculado" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/13.jpg",
+      "bio": "Estudiante de derecho con interés en justicia social y comunicación efectiva.",
+      "progress": {
+        "overallPercentage": 100,
+        "tests": [
+          { "name": "Test de Intereses", "status": "Completado", "completionDate": "3 de mayo" },
+          { "name": "Test de Aptitudes", "status": "Completado", "completionDate": "4 de mayo" },
+          { "name": "Test de Personalidad", "status": "Completado", "completionDate": "5 de mayo" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Derecho",
+          "description": "Tu capacidad de análisis y habilidades comunicativas te hacen apto para esta profesión.",
+          "compatibilityPercentage": 94
+        },
+        {
+          "name": "Ciencias Políticas",
+          "description": "Tu interés en temas sociales y tu capacidad de liderazgo sugieren esta carrera.",
+          "compatibilityPercentage": 88
+        },
+        {
+          "name": "Periodismo",
+          "description": "Tu curiosidad y habilidades de comunicación te harían destacar en esta área.",
+          "compatibilityPercentage": 82
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "firstname": "Ana",
+      "lastname": "García",
+      "fullName": "Ana García",
+      "email": "ana.garcia@email.com",
+      "phone": "+51 987654324",
+      "age": 29,
+      "status": "activo",
+      "registrationDate": "2023-01-18",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Ingeniería Civil",
+      "interests": ["Arquitectura", "Diseño Urbano", "Matemáticas"],
+      "academicHistory": [
+        { "year": 2021, "institution": "Universidad Nacional de Ingeniería", "status": "Matriculada" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": false },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/14.jpg",
+      "bio": "Ingeniera en formación apasionada por el diseño estructural y la planificación urbana.",
+      "progress": {
+        "overallPercentage": 66,
+        "tests": [
+          { "name": "Test de Intereses", "status": "Completado", "completionDate": "6 de mayo" },
+          { "name": "Test de Aptitudes", "status": "Completado", "completionDate": "7 de mayo" },
+          { "name": "Test de Personalidad", "status": "Pendiente", "estimatedTime": "25 minutos" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Ingeniería Civil",
+          "description": "Tu capacidad para resolver problemas y tu interés en construcción hacen de esta una buena opción.",
+          "compatibilityPercentage": 91
+        },
+        {
+          "name": "Matemáticas",
+          "description": "Tu habilidad numérica y lógica te harían destacar en esta carrera.",
+          "compatibilityPercentage": 86
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "firstname": "José",
+      "lastname": "Pérez",
+      "fullName": "José Pérez",
+      "email": "jose.perez@email.com",
+      "phone": "+51 987654325",
+      "age": 35,
+      "status": "activo",
+      "registrationDate": "2023-03-08",
+      "userType": "Estudiante",
+      "educationLevel": "Maestría - Administración de Empresas",
+      "interests": ["Gestión", "Emprendimiento", "Liderazgo"],
+      "academicHistory": [
+        { "year": 2019, "institution": "Universidad ESAN", "status": "Graduado" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/15.jpg",
+      "bio": "Profesional con experiencia en gestión de proyectos y administración moderna.",
+      "progress": {
+        "overallPercentage": 0,
+        "tests": [
+          { "name": "Test de Intereses", "status": "Pendiente", "estimatedTime": "15 minutos" },
+          { "name": "Test de Aptitudes", "status": "Pendiente", "estimatedTime": "20 minutos" },
+          { "name": "Test de Personalidad", "status": "Pendiente", "estimatedTime": "25 minutos" }
+        ]
+      },
+      "recommendedCareers": []
+    },
+    {
+      "id": 6,
+      "firstname": "María",
+      "lastname": "López",
+      "fullName": "María López",
+      "email": "maria.lopez@email.com",
+      "phone": "+51 987654326",
+      "age": 27,
+      "status": "activo",
+      "registrationDate": "2023-04-22",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Diseño Gráfico",
+      "interests": ["Arte Digital", "Ilustración", "Fotografía"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Toulouse Lautrec", "status": "Matriculada" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/16.jpg",
+      "bio": "Diseñadora creativa enfocada en comunicación visual y branding.",
+      "progress": {
+        "overallPercentage": 66,
+        "tests": [
+          { "name": "Test de Intereses", "status": "Completado", "completionDate": "4 de mayo" },
+          { "name": "Test de Aptitudes", "status": "Pendiente", "estimatedTime": "20 minutos" },
+          { "name": "Test de Personalidad", "status": "Completado", "completionDate": "5 de mayo" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Diseño Gráfico",
+          "description": "Tu creatividad y habilidades artísticas te hacen ideal para esta carrera.",
+          "compatibilityPercentage": 89
+        },
+        {
+          "name": "Publicidad",
+          "description": "Tu capacidad para generar ideas innovadoras te haría destacar en esta área.",
+          "compatibilityPercentage": 84
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "firstname": "David",
+      "lastname": "Torres",
+      "fullName": "David Torres",
+      "email": "david.torres@email.com",
+      "phone": "+51 987654327",
+      "age": 31,
+      "status": "activo",
+      "registrationDate": "2023-02-14",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Educación Inicial",
+      "interests": ["Aprendizaje Infantil", "Neuroeducación", "Motivación"],
+      "academicHistory": [
+        { "year": 2021, "institution": "Universidad Nacional Mayor de San Marcos", "status": "Matriculado" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/17.jpg",
+      "bio": "Futuro educador comprometido con el desarrollo de habilidades emocionales y cognitivas.",
+      "progress": {
+        "overallPercentage": 100,
+        "tests": [
+          { "name": "Test de Intereses", "status": "Completado", "completionDate": "2 de mayo" },
+          { "name": "Test de Aptitudes", "status": "Completado", "completionDate": "3 de mayo" },
+          { "name": "Test de Personalidad", "status": "Completado", "completionDate": "4 de mayo" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Educación",
+          "description": "Tu paciencia y habilidades comunicativas te hacen ideal para la enseñanza.",
+          "compatibilityPercentage": 93
+        },
+        {
+          "name": "Trabajo Social",
+          "description": "Tu empatía y deseo de ayudar a otros te harían destacar en esta carrera.",
+          "compatibilityPercentage": 87
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "firstname": "Carmen",
+      "lastname": "Ruiz",
+      "fullName": "Carmen Ruiz",
+      "email": "carmen.ruiz@email.com",
+      "phone": "+51 987654328",
+      "age": 26,
+      "status": "activo",
+      "registrationDate": "2023-05-03",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Economía",
+      "interests": ["Finanzas", "Análisis de Datos", "Desarrollo Sostenible"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Universidad de Piura", "status": "Matriculada" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": false },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/18.jpg",
+      "bio": "Apasionada por la economía circular y las finanzas sostenibles.",
+      "progress": {
+        "overallPercentage": 33,
+        "tests": [
+          { "name": "Test de Intereses", "status": "Pendiente", "estimatedTime": "15 minutos" },
+          { "name": "Test de Aptitudes", "status": "Completado", "completionDate": "6 de mayo" },
+          { "name": "Test de Personalidad", "status": "Pendiente", "estimatedTime": "25 minutos" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Economía",
+          "description": "Tu capacidad analítica y tu interés en números sugieren esta carrera.",
+          "compatibilityPercentage": 88
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "firstname": "Roberto",
+      "lastname": "Morales",
+      "fullName": "Roberto Morales",
+      "email": "roberto.morales@email.com",
+      "phone": "+51 987654329",
+      "age": 33,
+      "status": "activo",
+      "registrationDate": "2023-01-25",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Ingeniería Química",
+      "interests": ["Ciencia", "Laboratorio", "Sostenibilidad"],
+      "academicHistory": [
+        { "year": 2021, "institution": "Universidad Nacional de Ingeniería", "status": "Matriculado" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/19.jpg",
+      "bio": "Amante de la ciencia aplicada y la investigación de nuevos materiales.",
+      "progress": {
+        "overallPercentage": 66,
+        "tests": [
+          { "name": "Test de Intereses", "status": "Completado", "completionDate": "5 de mayo" },
+          { "name": "Test de Aptitudes", "status": "Completado", "completionDate": "6 de mayo" },
+          { "name": "Test de Personalidad", "status": "Pendiente", "estimatedTime": "25 minutos" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Química",
+          "description": "Tu interés en las ciencias y tu capacidad analítica te hacen ideal para esta carrera.",
+          "compatibilityPercentage": 90
+        },
+        {
+          "name": "Ingeniería Química",
+          "description": "Tu capacidad para resolver problemas científicos te haría destacar aquí.",
+          "compatibilityPercentage": 85
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "firstname": "Patricia",
+      "lastname": "Herrera",
+      "fullName": "Patricia Herrera",
+      "email": "patricia.herrera@email.com",
+      "phone": "+51 987654330",
+      "age": 30,
+      "status": "activo",
+      "registrationDate": "2023-03-12",
+      "userType": "Estudiante",
+      "educationLevel": "Maestría - Administración y Marketing",
+      "interests": ["Publicidad", "Comunicación", "Innovación"],
+      "academicHistory": [
+        { "year": 2020, "institution": "Universidad del Pacífico", "status": "Graduado" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": true },
+      "privacySettings": { "profileVisible": false, "dataSharing": true },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/20.jpg",
+      "bio": "Profesional orientada a resultados con pasión por la comunicación estratégica.",
+      "progress": {
+        "overallPercentage": 100,
+        "tests": [
+          { "name": "Test de Intereses", "status": "Completado", "completionDate": "1 de mayo" },
+          { "name": "Test de Aptitudes", "status": "Completado", "completionDate": "2 de mayo" },
+          { "name": "Test de Personalidad", "status": "Completado", "completionDate": "3 de mayo" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Administración de Empresas",
+          "description": "Tu capacidad de liderazgo y organización te hacen ideal para esta carrera.",
+          "compatibilityPercentage": 92
+        },
+        {
+          "name": "Contabilidad",
+          "description": "Tu habilidad con números y tu atención al detalle sugieren esta opción.",
+          "compatibilityPercentage": 86
+        },
+        {
+          "name": "Marketing",
+          "description": "Tu creatividad y habilidades comunicativas te harían destacar en esta área.",
+          "compatibilityPercentage": 80
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "firstname": "Fernando",
+      "lastname": "Castro",
+      "fullName": "Fernando Castro",
+      "email": "fernando.castro@email.com",
+      "phone": "+51 987654331",
+      "age": 24,
+      "status": "activo",
+      "registrationDate": "2023-04-18",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Psicología Organizacional",
+      "interests": ["Liderazgo", "Comportamiento Laboral", "Motivación"],
+      "academicHistory": [
+        { "year": 2023, "institution": "Universidad de Lima", "status": "Matriculado" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/21.jpg",
+      "bio": "Estudiante interesado en la gestión del talento humano y la cultura organizacional.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 12,
+      "firstname": "Isabel",
+      "lastname": "Jiménez",
+      "fullName": "Isabel Jiménez",
+      "email": "isabel.jimenez@email.com",
+      "phone": "+51 987654332",
+      "age": 28,
+      "status": "activo",
+      "registrationDate": "2023-02-28",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Psicología Clínica",
+      "interests": ["Salud Mental", "Terapia Familiar", "Empatía"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Universidad Ricardo Palma", "status": "Matriculada" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/22.jpg",
+      "bio": "Comprometida con mejorar el bienestar emocional de las personas.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 13,
+      "firstname": "Ricardo",
+      "lastname": "Vargas",
+      "fullName": "Ricardo Vargas",
+      "email": "ricardo.vargas@email.com",
+      "phone": "+51 987654333",
+      "age": 34,
+      "status": "activo",
+      "registrationDate": "2023-01-10",
+      "userType": "Estudiante",
+      "educationLevel": "Maestría - Psicología Educativa",
+      "interests": ["Docencia", "Motivación", "Educación Infantil"],
+      "academicHistory": [
+        { "year": 2018, "institution": "Universidad César Vallejo", "status": "Graduado" }
+      ],
+      "notifications": { "email": false, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/23.jpg",
+      "bio": "Educador con enfoque humanista, apasionado por el aprendizaje significativo.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 14,
+      "firstname": "Elena",
+      "lastname": "Ramírez",
+      "fullName": "Elena Ramírez",
+      "email": "elena.ramirez@email.com",
+      "phone": "+51 987654334",
+      "age": 29,
+      "status": "activo",
+      "registrationDate": "2023-05-15",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Comunicación Social",
+      "interests": ["Periodismo", "Relaciones Públicas", "Fotografía"],
+      "academicHistory": [
+        { "year": 2021, "institution": "Universidad San Ignacio de Loyola", "status": "Matriculada" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/24.jpg",
+      "bio": "Periodista en formación interesada en comunicación responsable e inclusiva.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 15,
+      "firstname": "Andrés",
+      "lastname": "Méndez",
+      "fullName": "Andrés Méndez",
+      "email": "andres.mendez@email.com",
+      "phone": "+51 987654335",
+      "age": 26,
+      "status": "activo",
+      "registrationDate": "2023-03-30",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Ingeniería Ambiental",
+      "interests": ["Ecología", "Sostenibilidad", "Energías Renovables"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Universidad Nacional Agraria La Molina", "status": "Matriculado" }
+      ],
+      "notifications": { "email": false, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/25.jpg",
+      "bio": "Comprometido con el desarrollo sostenible y la protección ambiental.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 16,
+      "firstname": "Valeria",
+      "lastname": "Silva",
+      "fullName": "Valeria Silva",
+      "email": "valeria.silva@email.com",
+      "phone": "+51 987654336",
+      "age": 27,
+      "status": "activo",
+      "registrationDate": "2023-04-05",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Arquitectura",
+      "interests": ["Diseño", "Arte", "Estructuras"],
+      "academicHistory": [
+        { "year": 2023, "institution": "Universidad Peruana de Ciencias Aplicadas", "status": "Matriculada" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/26.jpg",
+      "bio": "Apasionada por el diseño sostenible y la estética urbana moderna.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 17,
+      "firstname": "Gonzalo",
+      "lastname": "Fernández",
+      "fullName": "Gonzalo Fernández",
+      "email": "gonzalo.fernandez@email.com",
+      "phone": "+51 987654337",
+      "age": 32,
+      "status": "activo",
+      "registrationDate": "2023-02-08",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Economía",
+      "interests": ["Finanzas", "Macroeconomía", "Inversión"],
+      "academicHistory": [
+        { "year": 2020, "institution": "Universidad de Piura", "status": "Egresado" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/27.jpg",
+      "bio": "Economista orientado a la toma de decisiones estratégicas basadas en datos.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 18,
+      "firstname": "Mónica",
+      "lastname": "Paredes",
+      "fullName": "Mónica Paredes",
+      "email": "monica.paredes@email.com",
+      "phone": "+51 987654338",
+      "age": 31,
+      "status": "activo",
+      "registrationDate": "2023-01-22",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Psicología Educativa",
+      "interests": ["Pedagogía", "Aprendizaje", "Desarrollo Infantil"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Universidad San Martín de Porres", "status": "Matriculada" }
+      ],
+      "notifications": { "email": false, "sms": true, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/28.jpg",
+      "bio": "Motivada por mejorar la educación desde la psicología aplicada.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 19,
+      "firstname": "Sergio",
+      "lastname": "Gutiérrez",
+      "fullName": "Sergio Gutiérrez",
+      "email": "sergio.gutierrez@email.com",
+      "phone": "+51 987654339",
+      "age": 25,
+      "status": "activo",
+      "registrationDate": "2023-05-08",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Ingeniería de Software",
+      "interests": ["Tecnología", "Ciencia de Datos", "Automatización"],
+      "academicHistory": [
+        { "year": 2023, "institution": "Universidad Peruana de Ciencias Aplicadas", "status": "Matriculado" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/29.jpg",
+      "bio": "Estudiante entusiasta del desarrollo web y la innovación digital.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 20,
+      "firstname": "Natalia",
+      "lastname": "Vega",
+      "fullName": "Natalia Vega",
+      "email": "natalia.vega@email.com",
+      "phone": "+51 987654340",
+      "age": 28,
+      "status": "activo",
+      "registrationDate": "2023-03-25",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Psicología Forense",
+      "interests": ["Criminología", "Perfilación", "Justicia"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Universidad César Vallejo", "status": "Matriculada" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/30.jpg",
+      "bio": "Futura psicóloga forense interesada en la conducta criminal y la justicia social.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 21,
+      "firstname": "Álvaro",
+      "lastname": "Ortiz",
+      "fullName": "Álvaro Ortiz",
+      "email": "alvaro.ortiz@email.com",
+      "phone": "+51 987654341",
+      "age": 30,
+      "status": "activo",
+      "registrationDate": "2023-02-12",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Psicología Social",
+      "interests": ["Sociología", "Voluntariado", "Cambio Social"],
+      "academicHistory": [
+        { "year": 2023, "institution": "Universidad Nacional Mayor de San Marcos", "status": "Matriculado" }
+      ],
+      "notifications": { "email": false, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/31.jpg",
+      "bio": "Joven comprometido con generar impacto social desde la psicología.",
+      "progress": null,
+      "recommendedCareers" : []
+    },
+    {
+      "id": 22,
+      "firstname": "Lucía",
+      "lastname": "Navarro",
+      "fullName": "Lucía Navarro",
+      "email": "lucia.navarro@email.com",
+      "phone": "+51 987654342",
+      "age": 27,
+      "status": "activo",
+      "registrationDate": "2023-04-01",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Psicología Clínica",
+      "interests": ["Terapia Cognitiva", "Ansiedad", "Mindfulness"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Universidad Peruana Cayetano Heredia", "status": "Matriculada" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/32.jpg",
+      "bio": "Interesada en el bienestar emocional y la terapia cognitiva conductual.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 23,
+      "firstname": "Matías",
+      "lastname": "Reyes",
+      "fullName": "Matías Reyes",
+      "email": "matias.reyes@email.com",
+      "phone": "+51 987654343",
+      "age": 25,
+      "status": "activo",
+      "registrationDate": "2023-05-02",
+      "userType": "Estudiante",
+      "educationLevel": "Pregrado - Psicología del Deporte",
+      "interests": ["Motivación", "Rendimiento Deportivo", "Resiliencia"],
+      "academicHistory": [
+        { "year": 2023, "institution": "Universidad Católica San Pablo", "status": "Matriculado" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": false },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/33.jpg",
+      "bio": "Apasionado por el deporte y la psicología aplicada al alto rendimiento.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 24,
+      "firstname": "Sofía",
+      "lastname": "Cáceres",
+      "fullName": "Sofía Cáceres",
+      "email": "sofia.caceres@email.com",
+      "phone": "+51 987654344",
+      "age": 26,
+      "status": "activo",
+      "registrationDate": "2023-03-17",
+      "userType": "Estudiante",
+      "educationLevel": "Maestría - Neuropsicología",
+      "interests": ["Cerebro Humano", "Trastornos Cognitivos", "Aprendizaje"],
+      "academicHistory": [
+        { "year": 2020, "institution": "Universidad Peruana Cayetano Heredia", "status": "Graduado" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": true },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "es", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/34.jpg",
+      "bio": "Apasionada por la neurociencia y el estudio del aprendizaje humano.",
+      "progress": null,
+      "recommendedCareers": []
+    }
+  ],
+  "students_en": [
+    {
+      "id": 1,
+      "firstname": "Carlos",
+      "lastname": "Mendoza",
+      "fullName": "Carlos Mendoza",
+      "email": "carlos.mendoza@email.com",
+      "phone": "+51 987654321",
+      "age": 28,
+      "status": "active",
+      "registrationDate": "2023-03-15",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Systems Engineering",
+      "interests": ["Technology", "Mathematics", "Problem Solving"],
+      "academicHistory": [
+        { "year": 2021, "institution": "National University of Engineering", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg",
+      "bio": "Analytical and logical thinker passionate about technology and innovation.",
+      "progress": {
+        "overallPercentage": 75,
+        "tests": [
+          { "name": "Interest Test", "status": "Completed", "completionDate": "May 5" },
+          { "name": "Aptitude Test", "status": "Completed", "completionDate": "May 7" },
+          { "name": "Personality Test", "status": "Pending", "estimatedTime": "25 minutes" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Systems Engineering",
+          "description": "Your analytical and logical skills, combined with your interest in technology, make this an excellent choice.",
+          "compatibilityPercentage": 92
+        },
+        {
+          "name": "Psychology",
+          "description": "Your empathy and communication skills make you a strong candidate for this people-centered career.",
+          "compatibilityPercentage": 87
+        },
+        {
+          "name": "Architecture",
+          "description": "Your creativity and spatial reasoning suggest you could excel in architectural design.",
+          "compatibilityPercentage": 83
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstname": "Laura",
+      "lastname": "Sánchez",
+      "fullName": "Laura Sánchez",
+      "email": "laura.sanchez@email.com",
+      "phone": "+51 987654322",
+      "age": 32,
+      "status": "active",
+      "registrationDate": "2023-02-20",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Medicine",
+      "interests": ["Health", "Science", "Helping Others"],
+      "academicHistory": [
+        { "year": 2020, "institution": "San Marcos National University", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg",
+      "bio": "Dedicated to understanding life sciences and improving people's health.",
+      "progress": {
+        "overallPercentage": 33,
+        "tests": [
+          { "name": "Interest Test", "status": "Completed", "completionDate": "May 8" },
+          { "name": "Aptitude Test", "status": "Pending", "estimatedTime": "20 minutes" },
+          { "name": "Personality Test", "status": "Pending", "estimatedTime": "25 minutes" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Medicine",
+          "description": "Your passion for helping others and analytical ability make you ideal for this field.",
+          "compatibilityPercentage": 90
+        },
+        {
+          "name": "Biology",
+          "description": "Your curiosity about natural sciences suggests you would enjoy this path.",
+          "compatibilityPercentage": 85
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstname": "Miguel",
+      "lastname": "Rodríguez",
+      "fullName": "Miguel Rodríguez",
+      "email": "miguel.rodriguez@email.com",
+      "phone": "+51 987654323",
+      "age": 25,
+      "status": "active",
+      "registrationDate": "2023-04-10",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Law",
+      "interests": ["Debate", "Politics", "Communication"],
+      "academicHistory": [
+        { "year": 2021, "institution": "University of Lima", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/3.jpg",
+      "bio": "Strong communicator with an interest in justice and leadership.",
+      "progress": {
+        "overallPercentage": 100,
+        "tests": [
+          { "name": "Interest Test", "status": "Completed", "completionDate": "May 3" },
+          { "name": "Aptitude Test", "status": "Completed", "completionDate": "May 4" },
+          { "name": "Personality Test", "status": "Completed", "completionDate": "May 5" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Law",
+          "description": "Your analytical thinking and communication skills make you suitable for this profession.",
+          "compatibilityPercentage": 94
+        },
+        {
+          "name": "Political Science",
+          "description": "Your interest in social issues and leadership make this a great fit.",
+          "compatibilityPercentage": 88
+        },
+        {
+          "name": "Journalism",
+          "description": "Your curiosity and storytelling ability could make you shine in this area.",
+          "compatibilityPercentage": 82
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "firstname": "Ana",
+      "lastname": "García",
+      "fullName": "Ana García",
+      "email": "ana.garcia@email.com",
+      "phone": "+51 987654324",
+      "age": 29,
+      "status": "active",
+      "registrationDate": "2023-01-18",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Civil Engineering",
+      "interests": ["Mathematics", "Construction", "Problem Solving"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Pontifical Catholic University of Peru", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/4.jpg",
+      "bio": "Engineer passionate about creating practical and sustainable solutions.",
+      "progress": {
+        "overallPercentage": 66,
+        "tests": [
+          { "name": "Interest Test", "status": "Completed", "completionDate": "May 6" },
+          { "name": "Aptitude Test", "status": "Completed", "completionDate": "May 7" },
+          { "name": "Personality Test", "status": "Pending", "estimatedTime": "25 minutes" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Civil Engineering",
+          "description": "Your problem-solving ability and interest in construction make this a great option.",
+          "compatibilityPercentage": 91
+        },
+        {
+          "name": "Mathematics",
+          "description": "Your numerical and logical skills would help you excel in this career.",
+          "compatibilityPercentage": 86
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "firstname": "José",
+      "lastname": "Pérez",
+      "fullName": "José Pérez",
+      "email": "jose.perez@email.com",
+      "phone": "+51 987654325",
+      "age": 35,
+      "status": "active",
+      "registrationDate": "2023-03-08",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Industrial Engineering",
+      "interests": ["Optimization", "Productivity", "Management"],
+      "academicHistory": [
+        { "year": 2023, "institution": "National University of Engineering", "status": "Enrolled" }
+      ],
+      "notifications": { "email": false, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/5.jpg",
+      "bio": "Analytical mind focused on process improvement and industrial efficiency.",
+      "progress": {
+        "overallPercentage": 0,
+        "tests": [
+          { "name": "Interest Test", "status": "Pending", "estimatedTime": "15 minutes" },
+          { "name": "Aptitude Test", "status": "Pending", "estimatedTime": "20 minutes" },
+          { "name": "Personality Test", "status": "Pending", "estimatedTime": "25 minutes" }
+        ]
+      },
+      "recommendedCareers": []
+    },
+    {
+      "id": 6,
+      "firstname": "María",
+      "lastname": "López",
+      "fullName": "María López",
+      "email": "maria.lopez@email.com",
+      "phone": "+51 987654326",
+      "age": 27,
+      "status": "active",
+      "registrationDate": "2023-04-22",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Graphic Design",
+      "interests": ["Creativity", "Art", "Digital Media"],
+      "academicHistory": [
+        { "year": 2023, "institution": "UPC", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/6.jpg",
+      "bio": "Creative thinker focused on visual design and storytelling.",
+      "progress": {
+        "overallPercentage": 66,
+        "tests": [
+          { "name": "Interest Test", "status": "Completed", "completionDate": "May 4" },
+          { "name": "Aptitude Test", "status": "Pending", "estimatedTime": "20 minutes" },
+          { "name": "Personality Test", "status": "Completed", "completionDate": "May 5" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Graphic Design",
+          "description": "Your creativity and artistic skills make you ideal for this field.",
+          "compatibilityPercentage": 89
+        },
+        {
+          "name": "Advertising",
+          "description": "Your innovative ideas make you stand out in this area.",
+          "compatibilityPercentage": 84
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "firstname": "David",
+      "lastname": "Torres",
+      "fullName": "David Torres",
+      "email": "david.torres@email.com",
+      "phone": "+51 987654327",
+      "age": 31,
+      "status": "active",
+      "registrationDate": "2023-02-14",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Education",
+      "interests": ["Teaching", "Community", "Leadership"],
+      "academicHistory": [
+        { "year": 2021, "institution": "San Marcos National University", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/7.jpg",
+      "bio": "Passionate about education and making a difference in people's lives.",
+      "progress": {
+        "overallPercentage": 100,
+        "tests": [
+          { "name": "Interest Test", "status": "Completed", "completionDate": "May 2" },
+          { "name": "Aptitude Test", "status": "Completed", "completionDate": "May 3" },
+          { "name": "Personality Test", "status": "Completed", "completionDate": "May 4" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Education",
+          "description": "Your patience and communication skills make you ideal for teaching.",
+          "compatibilityPercentage": 93
+        },
+        {
+          "name": "Social Work",
+          "description": "Your empathy and desire to help others make you stand out in this field.",
+          "compatibilityPercentage": 87
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "firstname": "Carmen",
+      "lastname": "Ruiz",
+      "fullName": "Carmen Ruiz",
+      "email": "carmen.ruiz@email.com",
+      "phone": "+51 987654328",
+      "age": 26,
+      "status": "active",
+      "registrationDate": "2023-05-03",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Economics",
+      "interests": ["Finance", "Data Analysis", "Research"],
+      "academicHistory": [
+        { "year": 2022, "institution": "University of Piura", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/8.jpg",
+      "bio": "Economics student passionate about financial analysis and sustainability.",
+      "progress": {
+        "overallPercentage": 33,
+        "tests": [
+          { "name": "Interest Test", "status": "Pending", "estimatedTime": "15 minutes" },
+          { "name": "Aptitude Test", "status": "Completed", "completionDate": "May 6" },
+          { "name": "Personality Test", "status": "Pending", "estimatedTime": "25 minutes" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Economics",
+          "description": "Your analytical ability and interest in numbers suggest this career path.",
+          "compatibilityPercentage": 88
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "firstname": "Roberto",
+      "lastname": "Morales",
+      "fullName": "Roberto Morales",
+      "email": "roberto.morales@email.com",
+      "phone": "+51 987654329",
+      "age": 33,
+      "status": "active",
+      "registrationDate": "2023-01-25",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Chemical Engineering",
+      "interests": ["Science", "Laboratory Work", "Sustainability"],
+      "academicHistory": [
+        { "year": 2021, "institution": "National University of Engineering", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/19.jpg",
+      "bio": "Passionate about applied science and new materials research.",
+      "progress": {
+        "overallPercentage": 66,
+        "tests": [
+          { "name": "Interest Test", "status": "Completed", "completionDate": "May 5" },
+          { "name": "Aptitude Test", "status": "Completed", "completionDate": "May 6" },
+          { "name": "Personality Test", "status": "Pending", "estimatedTime": "25 minutes" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Chemistry",
+          "description": "Your interest in science and analytical skills make you ideal for this field.",
+          "compatibilityPercentage": 90
+        },
+        {
+          "name": "Chemical Engineering",
+          "description": "Your ability to solve scientific problems would help you excel here.",
+          "compatibilityPercentage": 85
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "firstname": "Patricia",
+      "lastname": "Herrera",
+      "fullName": "Patricia Herrera",
+      "email": "patricia.herrera@email.com",
+      "phone": "+51 987654330",
+      "age": 30,
+      "status": "active",
+      "registrationDate": "2023-03-12",
+      "userType": "Student",
+      "educationLevel": "Master’s - Business Administration and Marketing",
+      "interests": ["Advertising", "Communication", "Innovation"],
+      "academicHistory": [
+        { "year": 2020, "institution": "Universidad del Pacífico", "status": "Graduated" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": true },
+      "privacySettings": { "profileVisible": false, "dataSharing": true },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/20.jpg",
+      "bio": "Results-driven professional with a passion for strategic communication.",
+      "progress": {
+        "overallPercentage": 100,
+        "tests": [
+          { "name": "Interest Test", "status": "Completed", "completionDate": "May 1" },
+          { "name": "Aptitude Test", "status": "Completed", "completionDate": "May 2" },
+          { "name": "Personality Test", "status": "Completed", "completionDate": "May 3" }
+        ]
+      },
+      "recommendedCareers": [
+        {
+          "name": "Business Administration",
+          "description": "Your leadership and organizational skills make you ideal for this career.",
+          "compatibilityPercentage": 92
+        },
+        {
+          "name": "Accounting",
+          "description": "Your numerical skills and attention to detail suggest this option.",
+          "compatibilityPercentage": 86
+        },
+        {
+          "name": "Marketing",
+          "description": "Your creativity and communication skills make you stand out in this field.",
+          "compatibilityPercentage": 80
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "firstname": "Fernando",
+      "lastname": "Castro",
+      "fullName": "Fernando Castro",
+      "email": "fernando.castro@email.com",
+      "phone": "+51 987654331",
+      "age": 24,
+      "status": "active",
+      "registrationDate": "2023-04-18",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Organizational Psychology",
+      "interests": ["Leadership", "Work Behavior", "Motivation"],
+      "academicHistory": [
+        { "year": 2023, "institution": "University of Lima", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/21.jpg",
+      "bio": "Student interested in talent management and organizational culture.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 12,
+      "firstname": "Isabel",
+      "lastname": "Jiménez",
+      "fullName": "Isabel Jiménez",
+      "email": "isabel.jimenez@email.com",
+      "phone": "+51 987654332",
+      "age": 28,
+      "status": "active",
+      "registrationDate": "2023-02-28",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Clinical Psychology",
+      "interests": ["Mental Health", "Family Therapy", "Empathy"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Ricardo Palma University", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/22.jpg",
+      "bio": "Committed to improving people’s emotional well-being.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 13,
+      "firstname": "Ricardo",
+      "lastname": "Vargas",
+      "fullName": "Ricardo Vargas",
+      "email": "ricardo.vargas@email.com",
+      "phone": "+51 987654333",
+      "age": 34,
+      "status": "active",
+      "registrationDate": "2023-01-10",
+      "userType": "Student",
+      "educationLevel": "Master’s - Educational Psychology",
+      "interests": ["Teaching", "Motivation", "Child Education"],
+      "academicHistory": [
+        { "year": 2018, "institution": "César Vallejo University", "status": "Graduated" }
+      ],
+      "notifications": { "email": false, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/23.jpg",
+      "bio": "Humanistic educator passionate about meaningful learning.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 14,
+      "firstname": "Elena",
+      "lastname": "Ramírez",
+      "fullName": "Elena Ramírez",
+      "email": "elena.ramirez@email.com",
+      "phone": "+51 987654334",
+      "age": 29,
+      "status": "active",
+      "registrationDate": "2023-05-15",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Communication Studies",
+      "interests": ["Journalism", "Public Relations", "Photography"],
+      "academicHistory": [
+        { "year": 2021, "institution": "San Ignacio de Loyola University", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/24.jpg",
+      "bio": "Journalism student interested in responsible and inclusive communication.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 15,
+      "firstname": "Andrés",
+      "lastname": "Méndez",
+      "fullName": "Andrés Méndez",
+      "email": "andres.mendez@email.com",
+      "phone": "+51 987654335",
+      "age": 26,
+      "status": "active",
+      "registrationDate": "2023-03-30",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Environmental Engineering",
+      "interests": ["Ecology", "Sustainability", "Renewable Energy"],
+      "academicHistory": [
+        { "year": 2022, "institution": "National Agrarian University La Molina", "status": "Enrolled" }
+      ],
+      "notifications": { "email": false, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/25.jpg",
+      "bio": "Committed to sustainable development and environmental protection.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 16,
+      "firstname": "Valeria",
+      "lastname": "Silva",
+      "fullName": "Valeria Silva",
+      "email": "valeria.silva@email.com",
+      "phone": "+51 987654336",
+      "age": 27,
+      "status": "active",
+      "registrationDate": "2023-04-05",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Architecture",
+      "interests": ["Design", "Art", "Structures"],
+      "academicHistory": [
+        { "year": 2023, "institution": "Peruvian University of Applied Sciences", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/26.jpg",
+      "bio": "Passionate about sustainable design and modern urban aesthetics.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 17,
+      "firstname": "Gonzalo",
+      "lastname": "Fernández",
+      "fullName": "Gonzalo Fernández",
+      "email": "gonzalo.fernandez@email.com",
+      "phone": "+51 987654337",
+      "age": 32,
+      "status": "active",
+      "registrationDate": "2023-02-08",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Economics",
+      "interests": ["Finance", "Macroeconomics", "Investment"],
+      "academicHistory": [
+        { "year": 2020, "institution": "University of Piura", "status": "Graduated" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/27.jpg",
+      "bio": "Economist focused on data-driven strategic decision-making.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 18,
+      "firstname": "Lucía",
+      "lastname": "Rojas",
+      "fullName": "Lucía Rojas",
+      "email": "lucia.rojas@email.com",
+      "phone": "+51 987654338",
+      "age": 23,
+      "status": "active",
+      "registrationDate": "2023-06-02",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Nutrition",
+      "interests": ["Health", "Food Science", "Sports"],
+      "academicHistory": [
+        { "year": 2022, "institution": "Cayetano Heredia University", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/28.jpg",
+      "bio": "Nutrition student passionate about improving public health through food education.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 19,
+      "firstname": "Javier",
+      "lastname": "Salazar",
+      "fullName": "Javier Salazar",
+      "email": "javier.salazar@email.com",
+      "phone": "+51 987654339",
+      "age": 25,
+      "status": "active",
+      "registrationDate": "2023-01-29",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Computer Science",
+      "interests": ["Programming", "Artificial Intelligence", "Cybersecurity"],
+      "academicHistory": [
+        { "year": 2021, "institution": "PUCP", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/29.jpg",
+      "bio": "Passionate about technology and problem-solving through code.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 20,
+      "firstname": "Rosa",
+      "lastname": "Cruz",
+      "fullName": "Rosa Cruz",
+      "email": "rosa.cruz@email.com",
+      "phone": "+51 987654340",
+      "age": 28,
+      "status": "active",
+      "registrationDate": "2023-05-25",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Law",
+      "interests": ["Justice", "Debate", "Public Policy"],
+      "academicHistory": [
+        { "year": 2020, "institution": "University of Lima", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": false },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/30.jpg",
+      "bio": "Aspiring lawyer motivated by fairness and community advocacy.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 21,
+      "firstname": "Diego",
+      "lastname": "Flores",
+      "fullName": "Diego Flores",
+      "email": "diego.flores@email.com",
+      "phone": "+51 987654341",
+      "age": 29,
+      "status": "active",
+      "registrationDate": "2023-03-18",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Mechanical Engineering",
+      "interests": ["Machines", "Design", "Energy Systems"],
+      "academicHistory": [
+        { "year": 2021, "institution": "National University of Engineering", "status": "Enrolled" }
+      ],
+      "notifications": { "email": false, "sms": true, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/31.jpg",
+      "bio": "Engineer passionate about innovation in sustainable energy solutions.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 22,
+      "firstname": "Natalia",
+      "lastname": "Ortega",
+      "fullName": "Natalia Ortega",
+      "email": "natalia.ortega@email.com",
+      "phone": "+51 987654342",
+      "age": 26,
+      "status": "active",
+      "registrationDate": "2023-04-27",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - Psychology",
+      "interests": ["Behavior", "Emotions", "Counseling"],
+      "academicHistory": [
+        { "year": 2022, "institution": "University of San Martín de Porres", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": false, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/32.jpg",
+      "bio": "Curious about human behavior and dedicated to emotional well-being.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 23,
+      "firstname": "Héctor",
+      "lastname": "Paredes",
+      "fullName": "Héctor Paredes",
+      "email": "hector.paredes@email.com",
+      "phone": "+51 987654343",
+      "age": 31,
+      "status": "active",
+      "registrationDate": "2023-01-22",
+      "userType": "Student",
+      "educationLevel": "Master’s - Computer Engineering",
+      "interests": ["Programming", "Systems Design", "Innovation"],
+      "academicHistory": [
+        { "year": 2019, "institution": "PUCP", "status": "Graduated" }
+      ],
+      "notifications": { "email": true, "sms": false, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": false },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/men/33.jpg",
+      "bio": "Engineer focused on automation and smart systems.",
+      "progress": null,
+      "recommendedCareers": []
+    },
+    {
+      "id": 24,
+      "firstname": "Daniela",
+      "lastname": "Campos",
+      "fullName": "Daniela Campos",
+      "email": "daniela.campos@email.com",
+      "phone": "+51 987654344",
+      "age": 24,
+      "status": "active",
+      "registrationDate": "2023-06-10",
+      "userType": "Student",
+      "educationLevel": "Undergraduate - International Business",
+      "interests": ["Business", "Languages", "Culture"],
+      "academicHistory": [
+        { "year": 2022, "institution": "ESAN University", "status": "Enrolled" }
+      ],
+      "notifications": { "email": true, "sms": true, "push": true },
+      "privacySettings": { "profileVisible": true, "dataSharing": true },
+      "preferences": { "language": "en", "timezone": "America/Lima" },
+      "profilePicture": "https://randomuser.me/api/portraits/women/34.jpg",
+      "bio": "Future entrepreneur passionate about global trade and cultural exchange.",
+      "progress": null,
+      "recommendedCareers": []
+    }
+  ],
+  "psychologists_es": [
+    {
+      "id": 1,
+      "firstname": "Lucía",
+      "lastname": "Ramírez",
+      "fullName": "Lucía Ramírez",
+      "email": "lucia.ramirez@psychohealth.com",
+      "phone": "+51 945321789",
+      "specialization": "Psicología Clínica",
+      "experience": "10 años de experiencia en terapia individual y de pareja.",
+      "certifications": [
+        { "title": "Terapia Cognitivo-Conductual", "institution": "Universidad de Lima", "year": 2015 },
+        { "title": "Psicoterapia Humanista", "institution": "Pontificia Universidad Católica del Perú", "year": 2018 }
+      ],
+      "availability": {
+        "monday": "09:00 - 17:00",
+        "tuesday": "09:00 - 17:00",
+        "wednesday": "09:00 - 17:00",
+        "thursday": "09:00 - 17:00",
+        "friday": "09:00 - 14:00"
+      },
+      "assignedPatients": [1, 5, 8, 14]
+    },
+    {
+      "id": 2,
+      "firstname": "Andrés",
+      "lastname": "Castillo",
+      "fullName": "Andrés Castillo",
+      "email": "andres.castillo@psychohealth.com",
+      "phone": "+51 948777320",
+      "specialization": "Psicología Educativa",
+      "experience": "8 años de experiencia orientando a jóvenes y adolescentes en instituciones educativas.",
+      "certifications": [
+        { "title": "Orientación Vocacional y Coaching", "institution": "Universidad de San Martín de Porres", "year": 2016 },
+        { "title": "Psicopedagogía Aplicada", "institution": "Universidad Peruana Cayetano Heredia", "year": 2019 }
+      ],
+      "availability": {
+        "monday": "08:00 - 15:00",
+        "tuesday": "08:00 - 15:00",
+        "wednesday": "10:00 - 18:00",
+        "thursday": "08:00 - 15:00",
+        "friday": "08:00 - 13:00"
+      },
+      "assignedPatients": [2, 6, 10, 17]
+    },
+    {
+      "id": 3,
+      "firstname": "Camila",
+      "lastname": "Gómez",
+      "fullName": "Camila Gómez",
+      "email": "camila.gomez@psychohealth.com",
+      "phone": "+51 949888654",
+      "specialization": "Psicología Organizacional",
+      "experience": "12 años en gestión del talento y orientación profesional en empresas multinacionales.",
+      "certifications": [
+        { "title": "Gestión del Talento Humano", "institution": "Universidad ESAN", "year": 2014 },
+        { "title": "Evaluación Psicométrica Avanzada", "institution": "Universidad de Piura", "year": 2020 }
+      ],
+      "availability": {
+        "monday": "09:00 - 18:00",
+        "tuesday": "09:00 - 18:00",
+        "wednesday": "09:00 - 18:00",
+        "thursday": "09:00 - 18:00",
+        "friday": "09:00 - 16:00"
+      },
+      "assignedPatients": [3, 9, 12, 21]
+    },
+    {
+      "id": 4,
+      "firstname": "Rafael",
+      "lastname": "Torres",
+      "fullName": "Rafael Torres",
+      "email": "rafael.torres@psychohealth.com",
+      "phone": "+51 946332110",
+      "specialization": "Psicología Infantil",
+      "experience": "7 años de experiencia en atención de niños con dificultades emocionales y de aprendizaje.",
+      "certifications": [
+        { "title": "Intervención Psicoeducativa en la Infancia", "institution": "Universidad de Salamanca", "year": 2017 },
+        { "title": "Terapias Cognitivas para Niños", "institution": "Universidad Ricardo Palma", "year": 2019 }
+      ],
+      "availability": {
+        "monday": "08:00 - 14:00",
+        "tuesday": "10:00 - 16:00",
+        "wednesday": "08:00 - 14:00",
+        "thursday": "10:00 - 16:00",
+        "friday": "08:00 - 12:00"
+      },
+      "assignedPatients": [4, 11, 15, 20]
+    },
+    {
+      "id": 5,
+      "firstname": "Sofía",
+      "lastname": "Vega",
+      "fullName": "Sofía Vega",
+      "email": "sofia.vega@psychohealth.com",
+      "phone": "+51 947555210",
+      "specialization": "Psicología del Trabajo y Coaching",
+      "experience": "15 años apoyando procesos de desarrollo profesional y liderazgo en adultos.",
+      "certifications": [
+        { "title": "Coaching Profesional", "institution": "Escuela Europea de Coaching", "year": 2012 },
+        { "title": "Psicología del Trabajo", "institution": "Universidad de Buenos Aires", "year": 2016 }
+      ],
+      "availability": {
+        "monday": "09:00 - 17:00",
+        "tuesday": "09:00 - 17:00",
+        "wednesday": "09:00 - 17:00",
+        "thursday": "09:00 - 17:00",
+        "friday": "09:00 - 15:00"
+      },
+      "assignedPatients": [7, 13, 16, 18, 19, 22, 23, 24]
+    }
+  ],
+  "psychologists_en": [
+    {
+      "id": 1,
+      "firstname": "Lucia",
+      "lastname": "Ramirez",
+      "fullName": "Lucia Ramirez",
+      "email": "lucia.ramirez@psychohealth.com",
+      "phone": "+51 945321789",
+      "specialization": "Clinical Psychology",
+      "experience": "10 years of experience in individual and couples therapy.",
+      "certifications": [
+        { "title": "Cognitive Behavioral Therapy", "institution": "University of Lima", "year": 2015 },
+        { "title": "Humanistic Psychotherapy", "institution": "Pontifical Catholic University of Peru", "year": 2018 }
+      ],
+      "availability": {
+        "monday": "09:00 - 17:00",
+        "tuesday": "09:00 - 17:00",
+        "wednesday": "09:00 - 17:00",
+        "thursday": "09:00 - 17:00",
+        "friday": "09:00 - 14:00"
+      },
+      "assignedPatients": [1, 5, 8, 14]
+    },
+    {
+      "id": 2,
+      "firstname": "Andres",
+      "lastname": "Castillo",
+      "fullName": "Andres Castillo",
+      "email": "andres.castillo@psychohealth.com",
+      "phone": "+51 948777320",
+      "specialization": "Educational Psychology",
+      "experience": "8 years of experience guiding young people and teenagers in educational institutions.",
+      "certifications": [
+        { "title": "Vocational Guidance and Coaching", "institution": "University of San Martin de Porres", "year": 2016 },
+        { "title": "Applied Psychopedagogy", "institution": "Cayetano Heredia University", "year": 2019 }
+      ],
+      "availability": {
+        "monday": "08:00 - 15:00",
+        "tuesday": "08:00 - 15:00",
+        "wednesday": "10:00 - 18:00",
+        "thursday": "08:00 - 15:00",
+        "friday": "08:00 - 13:00"
+      },
+      "assignedPatients": [2, 6, 10, 17]
+    },
+    {
+      "id": 3,
+      "firstname": "Camila",
+      "lastname": "Gomez",
+      "fullName": "Camila Gomez",
+      "email": "camila.gomez@psychohealth.com",
+      "phone": "+51 949888654",
+      "specialization": "Organizational Psychology",
+      "experience": "12 years in talent management and professional orientation in multinational companies.",
+      "certifications": [
+        { "title": "Human Talent Management", "institution": "ESAN University", "year": 2014 },
+        { "title": "Advanced Psychometric Assessment", "institution": "University of Piura", "year": 2020 }
+      ],
+      "availability": {
+        "monday": "09:00 - 18:00",
+        "tuesday": "09:00 - 18:00",
+        "wednesday": "09:00 - 18:00",
+        "thursday": "09:00 - 18:00",
+        "friday": "09:00 - 16:00"
+      },
+      "assignedPatients": [3, 9, 12, 21]
+    },
+    {
+      "id": 4,
+      "firstname": "Rafael",
+      "lastname": "Torres",
+      "fullName": "Rafael Torres",
+      "email": "rafael.torres@psychohealth.com",
+      "phone": "+51 946332110",
+      "specialization": "Child Psychology",
+      "experience": "7 years of experience treating children with emotional and learning difficulties.",
+      "certifications": [
+        { "title": "Childhood Psychoeducational Intervention", "institution": "University of Salamanca", "year": 2017 },
+        { "title": "Cognitive Therapies for Children", "institution": "Ricardo Palma University", "year": 2019 }
+      ],
+      "availability": {
+        "monday": "08:00 - 14:00",
+        "tuesday": "10:00 - 16:00",
+        "wednesday": "08:00 - 14:00",
+        "thursday": "10:00 - 16:00",
+        "friday": "08:00 - 12:00"
+      },
+      "assignedPatients": [4, 11, 15, 20]
+    },
+    {
+      "id": 5,
+      "firstname": "Sofia",
+      "lastname": "Vega",
+      "fullName": "Sofia Vega",
+      "email": "sofia.vega@psychohealth.com",
+      "phone": "+51 947555210",
+      "specialization": "Work Psychology and Coaching",
+      "experience": "15 years supporting professional development and leadership processes in adults.",
+      "certifications": [
+        { "title": "Professional Coaching", "institution": "European School of Coaching", "year": 2012 },
+        { "title": "Work Psychology", "institution": "University of Buenos Aires", "year": 2016 }
+      ],
+      "availability": {
+        "monday": "09:00 - 17:00",
+        "tuesday": "09:00 - 17:00",
+        "wednesday": "09:00 - 17:00",
+        "thursday": "09:00 - 17:00",
+        "friday": "09:00 - 15:00"
+      },
+      "assignedPatients": [7, 13, 16, 18, 19, 22, 23, 24]
     }
   ]
 }

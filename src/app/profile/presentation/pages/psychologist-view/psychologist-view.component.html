@@ -1,0 +1,37 @@
+﻿<div *ngIf="loading" class="loading">
+  Cargando perfil del psicólogo...
+</div>
+
+<div *ngIf="error" class="error">
+  Error al cargar el perfil del psicólogo.
+</div>
+
+<div *ngIf="!loading && !error && psychologist" class="psychologist-container">
+  <h2>Perfil del psicólogo</h2>
+
+  <p><strong>Nombre:</strong> {{ psychologist.fullName || (psychologist.firstname + ' ' + psychologist.lastname) }}</p>
+  <p><strong>Email:</strong> {{ psychologist.email }}</p>
+  <p><strong>Especialización:</strong> {{ psychologist.specialization }}</p>
+  <p><strong>Experiencia:</strong> {{ psychologist.experience }}</p>
+
+  <h3>Certificaciones</h3>
+  <ul>
+    <li *ngFor="let cert of psychologist.certifications">
+      {{ cert.title }} ({{ cert.year }})
+    </li>
+  </ul>
+
+  <h3>Disponibilidad</h3>
+  <ul>
+      {{ psychologist.availability.days }} ({{ psychologist.availability.hours }})
+  </ul>
+
+
+
+  <h3>Pacientes asignados</h3>
+  <ul>
+    <li *ngFor="let patient of psychologist.patients">
+      {{ patient.name }} - {{ patient.email }}
+    </li>
+  </ul>
+</div>
