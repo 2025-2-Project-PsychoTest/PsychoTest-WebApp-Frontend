@@ -22,7 +22,7 @@ import { TranslateModule } from '@ngx-translate/core';
 })
 export class SidebarComponent {
   navItems = [
-    { label: 'SIDEBAR.DASHBOARD', route: 'student/dashboard', icon: 'dashboard' },
+    { label: 'SIDEBAR.DASHBOARD', route: '/student-dashboard', icon: 'dashboard' },
     { label: 'SIDEBAR.TESTS', route: 'student/tests', icon: 'assignment' },
     { label: 'SIDEBAR.CAREERS', route: 'student/careers', icon: 'school' },
     { label: 'SIDEBAR.SESSIONS', route: 'student/sessions', icon: 'calendar_month' },

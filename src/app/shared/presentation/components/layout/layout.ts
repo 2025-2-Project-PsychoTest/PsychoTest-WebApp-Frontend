@@ -33,11 +33,11 @@ export class Layout {
   ];
 
   options_student = [
-    { label: 'SIDEBAR.HOME', link: 'student/home', icon: 'home' },
+    { label: 'SIDEBAR.HOME', link: '/home', icon: 'home' },
     { label: 'SIDEBAR.PROFILE', link: 'student/profile', icon: 'person' },
     { label: 'SIDEBAR.TESTS', link: 'student/tests', icon: 'quiz' },
     { label: 'SIDEBAR.SESSIONS', link: 'student/sessions', icon: 'calendar_month' },
-    { label: 'SIDEBAR.DASHBOARD', link: 'student/dashboard', icon: 'dashboard' },
+    { label: 'SIDEBAR.DASHBOARD', link: '/student-dashboard', icon: 'dashboard' },
     { label: 'SIDEBAR.SETTINGS', link: 'student/settings', icon: 'settings' }
   ];
 
