@@ -1,0 +1,43 @@
+<div class="progress-section">
+  <h2>{{ 'PROGRESS.TITLE' | translate }}</h2>
+  <p class="subtitle">{{ 'PROGRESS.SUBTITLE' | translate }}</p>
+
+  <!-- Overall Progress -->
+  <div class="overall-progress">
+    <span class="progress-label">{{ 'PROGRESS.GENERAL' | translate }}</span>
+    <mat-progress-bar mode="determinate" [value]="progress().overallPercentage"></mat-progress-bar>
+    <span class="progress-percentage">{{ progress().overallPercentage }}%</span>
+  </div>
+
+  <!-- Test Cards -->
+  <div class="test-cards">
+    @for (test of progress().tests; track test.name) {
+      <div class="test-card">
+        <mat-icon class="test-icon" [class.completed]="test.status === 'Completado'">
+          {{ test.status === 'Completado' ? 'check_circle' : 'pending' }}
+        </mat-icon>
+        <div class="test-info">
+          @if (test.name === 'Test de Intereses') {
+            <h3>{{ 'PROGRESS.NAME.INTEREST' | translate }}</h3>
+          }
+          @if (test.name === 'Test de Aptitudes') {
+            <h3>{{ 'PROGRESS.NAME.APTITUDES' | translate }}</h3>
+          }
+          @if (test.name === 'Test de Personalidad') {
+            <h3>{{ 'PROGRESS.NAME.PERSONALITY' | translate }}</h3>
+          }
+          @if (test.status === 'Completado') {
+            <p>{{ 'PROGRESS.COMPLETED_ON' | translate }} {{ test.completionDate }}</p>
+          }
+          @if (test.status === 'Pendiente') {
+            <p>{{ test.estimatedTime }} {{'PROGRESS.ESTIMATED_TIME' | translate }}</p>
+          }
+        </div>
+        <span class="test-status" [class.completed]="test.status === 'Completado'">
+          {{ test.status }}
+        </span>
+      </div>
+    }
+  </div>
+</div>
+
