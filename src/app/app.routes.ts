@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { Home } from './shared/presentation/views/home/home';
 import { PsychologistViewComponent } from './profile/presentation/pages/psychologist-view/psychologist-view.component';
-import { ProfileViewComponent } from './profile/presentation/pages/profile-view/profile-view.component';
+//import { ProfileViewComponent } from './profile/presentation/pages/profile-view/profile-view.component';
 
 const pageNotFound = () =>
   import('./shared/presentation/views/page-not-found/page-not-found').then(
