@@ -29,4 +29,12 @@ export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 
   { path: '**', loadComponent: pageNotFound, title: `${baseTitle} - Page Not Found` },
+  { path: 'home', component: Home, title: `${baseTitle} - Home`  },
+  {
+    path: 'student-dashboard',
+    loadChildren: () => import('./student-dashboard/presentation/student-dashboard.routes').then(m => m.STUDENT_DASHBOARD_ROUTES),
+    title: `${baseTitle} - Student Dashboard`
+  },
+  { path: '', redirectTo: '/home', pathMatch: 'full'  },
+  { path: '**', loadComponent:  pageNotFound, title: `${baseTitle} - Page Not Found`  },
 ];

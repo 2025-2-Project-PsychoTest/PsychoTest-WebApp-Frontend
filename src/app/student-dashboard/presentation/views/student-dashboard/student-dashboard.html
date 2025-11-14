@@ -1,0 +1,20 @@
+<div class="student-dashboard">
+  <span class="main-title">{{'SIDEBAR.DASHBOARD' | translate}}</span>
+
+  @if (store.loading()) {
+    <div class="loading">Cargando...</div>
+  }
+
+  @if (store.error()) {
+    <div class="error">{{ store.error() }}</div>
+  }
+
+  @if (store.student() && store.progress()) {
+    <app-progress [progress]="store.progress()!" />
+  }
+
+  @if (store.student() && store.recommendedCareers().length > 0) {
+    <app-recommended-careers [careers]="store.recommendedCareers()" />
+  }
+</div>
+
